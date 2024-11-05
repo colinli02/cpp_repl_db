@@ -1,6 +1,21 @@
+# Ignore Visual Studio specific folders
+.vs/
 *.suo
 *.user
-*.ncb
+*.userosscache
+*.sln.docstates
+
+# Ignore build output folders
+bin/
+obj/
+
+# Ignore platform and configuration-specific folders
+x64/
+x86/
 Debug/
 Release/
-CodeAnalyst/
+
+# Ignore other temporary files
+*.log
+*.tlog
+*.lastbuildstate
