@@ -7,9 +7,6 @@ A simple read–eval–print loop ("REPL") c based db.
 It contains basic sqlite based commands (detailed below), functioning in a command line interface when ran as "db\".
 
 
-It also supports disk persistence, meaning instead of being temporarily stored in the memory (stack), it will be stored into the disk instead. 
-This means we can access our data when we re-boot, similar to a regular db.
-
 
 ```
 [test]
@@ -28,7 +25,7 @@ For a reference, check out [here](https://www.sqlite.org/cli.html).
 
 | Command name    | Description |  Usage |
 | -------- 		  | -------     | -------     |
-| .exit |  Closes command prompt. Must be used to save onto disk  | .exit   |
+| .exit |  Closes command prompt.  | .exit   |
 | insert  |  Inserts entry into db by appending to row |  insert [row # as integer] [username] [email@emailcom] |
 | select  |    | -------     |
 | .tables |   | -------     |
